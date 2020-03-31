@@ -9,6 +9,8 @@
 #ifndef HBKitTools_h
 #define HBKitTools_h
 
+#import "HBUIViews.h"
+
 #import "HBCategorys.h"
 
 #endif /* HBKitTools_h */

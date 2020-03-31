@@ -16,6 +16,7 @@
 		1FD93ABA2432F01100727B20 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FD93AB92432F01100727B20 /* main.m */; };
 		1FD93AC82432F07000727B20 /* UILabel+HBAlignment.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FD93AC62432F07000727B20 /* UILabel+HBAlignment.m */; };
 		1FD93AC92432F07000727B20 /* UIView+HBExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FD93AC72432F07000727B20 /* UIView+HBExtension.m */; };
+		1FD93AD724335A2F00727B20 /* HBTitleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FD93AD624335A2F00727B20 /* HBTitleView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,8 +38,11 @@
 		1FD93AC62432F07000727B20 /* UILabel+HBAlignment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+HBAlignment.m"; sourceTree = "<group>"; };
 		1FD93AC72432F07000727B20 /* UIView+HBExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+HBExtension.m"; sourceTree = "<group>"; };
 		1FD93ACA2432F08B00727B20 /* HBKitTools.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HBKitTools.h; sourceTree = "<group>"; };
-		1FD93AD12432F17600727B20 /* HBKitTools.podspec */ = {isa = PBXFileReference; lastKnownFileType = file; path = HBKitTools.podspec; sourceTree = SOURCE_ROOT; };
+		1FD93AD12432F17600727B20 /* HBKitTools.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = HBKitTools.podspec; sourceTree = SOURCE_ROOT; };
 		1FD93AD22432F17600727B20 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
+		1FD93AD524335A2F00727B20 /* HBTitleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HBTitleView.h; sourceTree = "<group>"; };
+		1FD93AD624335A2F00727B20 /* HBTitleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HBTitleView.m; sourceTree = "<group>"; };
+		1FD93AD824335A6800727B20 /* HBUIViews.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HBUIViews.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +97,7 @@
 			isa = PBXGroup;
 			children = (
 				1FD93ACA2432F08B00727B20 /* HBKitTools.h */,
+				1FD93AD3243359F800727B20 /* HBUIViews */,
 				1FD93AC22432F07000727B20 /* HBCategorys */,
 			);
 			path = HBKitTools;
@@ -108,6 +113,24 @@
 				1FD93AC72432F07000727B20 /* UIView+HBExtension.m */,
 			);
 			path = HBCategorys;
+			sourceTree = "<group>";
+		};
+		1FD93AD3243359F800727B20 /* HBUIViews */ = {
+			isa = PBXGroup;
+			children = (
+				1FD93AD824335A6800727B20 /* HBUIViews.h */,
+				1FD93AD424335A2F00727B20 /* HBTitleView */,
+			);
+			path = HBUIViews;
+			sourceTree = "<group>";
+		};
+		1FD93AD424335A2F00727B20 /* HBTitleView */ = {
+			isa = PBXGroup;
+			children = (
+				1FD93AD524335A2F00727B20 /* HBTitleView.h */,
+				1FD93AD624335A2F00727B20 /* HBTitleView.m */,
+			);
+			path = HBTitleView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -180,6 +203,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1FD93AD724335A2F00727B20 /* HBTitleView.m in Sources */,
 				1FD93AAF2432F00F00727B20 /* ViewController.m in Sources */,
 				1FD93AC82432F07000727B20 /* UILabel+HBAlignment.m in Sources */,
 				1FD93AA92432F00F00727B20 /* AppDelegate.m in Sources */,
@@ -328,6 +352,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = YTPNCWF278;
 				INFOPLIST_FILE = HBKitTools/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -345,6 +370,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = YTPNCWF278;
 				INFOPLIST_FILE = HBKitTools/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
