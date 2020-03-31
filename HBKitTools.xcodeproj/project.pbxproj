@@ -119,18 +119,10 @@
 			isa = PBXGroup;
 			children = (
 				1FD93AD824335A6800727B20 /* HBUIViews.h */,
-				1FD93AD924336F0A00727B20 /* HBTitleView */,
-			);
-			path = HBUIViews;
-			sourceTree = "<group>";
-		};
-		1FD93AD924336F0A00727B20 /* HBTitleView */ = {
-			isa = PBXGroup;
-			children = (
 				1FD93ADA24336F0A00727B20 /* HBTitleView.h */,
 				1FD93ADB24336F0A00727B20 /* HBTitleView.m */,
 			);
-			path = HBTitleView;
+			path = HBUIViews;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

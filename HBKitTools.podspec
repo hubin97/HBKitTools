@@ -32,7 +32,7 @@ Pod::Spec.new do |spec|
   end
   
   spec.subspec 'HBUIViews' do |dd|
-    dd.source_files  = "HBKitTools/HBKitTools/HBUIViews/**"
+    dd.source_files  = "HBKitTools/HBKitTools/HBUIViews/*"
   end
   
   # ――― Project Settings ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
