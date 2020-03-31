@@ -6,7 +6,7 @@ Pod::Spec.new do |spec|
   
   # ―――  Spec Metadata  ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   spec.name         = "HBKitTools"
-  spec.version      = "0.0.2"
+  spec.version      = "0.0.3"
   spec.summary      = "个人常用开发组件"
   spec.description  = "个人常用开发组件-自定义视图,常用分类,技术总结类目等."
   spec.homepage     = "https://github.com/hubin97/HBKitTools"
@@ -25,14 +25,16 @@ Pod::Spec.new do |spec|
   spec.source       = { :git => "https://github.com/hubin97/HBKitTools.git", :tag => "#{spec.version}" }
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
-  spec.source_files  = "HBKitTools/HBKitTools/**/*.{h,m}"
+  spec.source_files  = "HBKitTools/HBKitTools/*.h"
   
-  #spec.subspec 'HBCategorys' do |dd|
-    #dd.source_files  = "HBKitTools/HBKitTools/HBCategorys/*"
-  #end
-  #spec.subspec 'HBUIViews' do |dd|
-    #dd.source_files  = "HBKitTools/HBKitTools/HBUIViews/**"
-
+  spec.subspec 'HBCategorys' do |dd|
+    dd.source_files  = "HBKitTools/HBKitTools/HBCategorys/*"
+  end
+  
+  spec.subspec 'HBUIViews' do |dd|
+    dd.source_files  = "HBKitTools/HBKitTools/HBUIViews/**"
+  end
+  
   # ――― Project Settings ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   spec.requires_arc = true
   
