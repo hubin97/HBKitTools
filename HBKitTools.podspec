@@ -25,16 +25,16 @@ Pod::Spec.new do |spec|
   spec.source       = { :git => "https://github.com/hubin97/HBKitTools.git", :tag => "#{spec.version}" }
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
-  spec.source_files  = "HBKitTools/HBKitTools/*"
+  spec.source_files  = "HBKitTools/HBKitTools/**/*.{h,m}"
   
-  spec.subspec 'HBCategorys' do |dd|
-    dd.source_files  = "HBKitTools/HBKitTools/HBCategorys/*"
-  
-  spec.subspec 'HBUIViews' do |dd|
-    dd.source_files  = "HBKitTools/HBKitTools/HBUIViews/**"
+  #spec.subspec 'HBCategorys' do |dd|
+    #dd.source_files  = "HBKitTools/HBKitTools/HBCategorys/*"
+  #end
+  #spec.subspec 'HBUIViews' do |dd|
+    #dd.source_files  = "HBKitTools/HBKitTools/HBUIViews/**"
 
   # ――― Project Settings ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   spec.requires_arc = true
-  end
+  
 
 end
