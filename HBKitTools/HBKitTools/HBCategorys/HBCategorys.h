@@ -13,4 +13,6 @@
 
 #import "UIView+HBExtension.h"
 
+#import "NSTimer+HBWeakTimer.h"
+
 #endif /* HBCategorys_h */

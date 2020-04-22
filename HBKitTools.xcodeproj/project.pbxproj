@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1F6FD364244FFDD100811F1C /* NSTimer+HBWeakTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F6FD363244FFDD100811F1C /* NSTimer+HBWeakTimer.m */; };
 		1FD93AA92432F00F00727B20 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FD93AA82432F00F00727B20 /* AppDelegate.m */; };
 		1FD93AAC2432F00F00727B20 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FD93AAB2432F00F00727B20 /* SceneDelegate.m */; };
 		1FD93AAF2432F00F00727B20 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FD93AAE2432F00F00727B20 /* ViewController.m */; };
@@ -20,6 +21,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1F6FD362244FFDD100811F1C /* NSTimer+HBWeakTimer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSTimer+HBWeakTimer.h"; sourceTree = "<group>"; };
+		1F6FD363244FFDD100811F1C /* NSTimer+HBWeakTimer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSTimer+HBWeakTimer.m"; sourceTree = "<group>"; };
 		1FD93AA42432F00F00727B20 /* HBKitTools.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HBKitTools.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FD93AA72432F00F00727B20 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1FD93AA82432F00F00727B20 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -111,6 +114,8 @@
 				1FD93AC62432F07000727B20 /* UILabel+HBAlignment.m */,
 				1FD93AC32432F07000727B20 /* UIView+HBExtension.h */,
 				1FD93AC72432F07000727B20 /* UIView+HBExtension.m */,
+				1F6FD362244FFDD100811F1C /* NSTimer+HBWeakTimer.h */,
+				1F6FD363244FFDD100811F1C /* NSTimer+HBWeakTimer.m */,
 			);
 			path = HBCategorys;
 			sourceTree = "<group>";
@@ -195,6 +200,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F6FD364244FFDD100811F1C /* NSTimer+HBWeakTimer.m in Sources */,
 				1FD93AAF2432F00F00727B20 /* ViewController.m in Sources */,
 				1FD93AC82432F07000727B20 /* UILabel+HBAlignment.m in Sources */,
 				1FD93AA92432F00F00727B20 /* AppDelegate.m in Sources */,

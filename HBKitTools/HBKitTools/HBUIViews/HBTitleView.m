@@ -234,7 +234,11 @@ const CGFloat HBShowOutstandingFontMinSize = 14.0f;
     
     if(_isNeedBorderLine)
     {
-        self.layer.borderColor = [[UIColor groupTableViewBackgroundColor] CGColor];
+        UIColor *color = [UIColor lightGrayColor];
+        if (@available(iOS 13.0, *)) {
+            color = [UIColor systemGroupedBackgroundColor];
+        }
+        self.layer.borderColor = [color CGColor];
         self.layer.borderWidth = 1.0f;
     }
 }
