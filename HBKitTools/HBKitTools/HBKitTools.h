@@ -13,4 +13,6 @@
 
 #import "HBCategorys.h"
 
+#import "HBCommonTools.h"
+
 #endif /* HBKitTools_h */

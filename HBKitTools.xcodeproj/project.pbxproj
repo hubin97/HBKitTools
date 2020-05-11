@@ -19,9 +19,12 @@
 		1FD93AC92432F07000727B20 /* UIView+HBExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FD93AC72432F07000727B20 /* UIView+HBExtension.m */; };
 		1FD93ADC24336F0A00727B20 /* HBTitleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FD93ADB24336F0A00727B20 /* HBTitleView.m */; };
 		1FF8D750246937830021A909 /* UIColor+HBHex.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FF8D74F246937830021A909 /* UIColor+HBHex.m */; };
+		1FF8D753246976C40021A909 /* HBFMManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FF8D751246976C40021A909 /* HBFMManager.m */; };
+		4BD416D8C59A15E28FC36055 /* Pods_HBKitTools.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0892FD41BACC44358526B352 /* Pods_HBKitTools.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0892FD41BACC44358526B352 /* Pods_HBKitTools.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HBKitTools.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F6FD362244FFDD100811F1C /* NSTimer+HBWeakTimer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSTimer+HBWeakTimer.h"; sourceTree = "<group>"; };
 		1F6FD363244FFDD100811F1C /* NSTimer+HBWeakTimer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSTimer+HBWeakTimer.m"; sourceTree = "<group>"; };
 		1FD93AA42432F00F00727B20 /* HBKitTools.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HBKitTools.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -49,6 +52,11 @@
 		1FD93ADB24336F0A00727B20 /* HBTitleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HBTitleView.m; sourceTree = "<group>"; };
 		1FF8D74E246937830021A909 /* UIColor+HBHex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+HBHex.h"; sourceTree = "<group>"; };
 		1FF8D74F246937830021A909 /* UIColor+HBHex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+HBHex.m"; sourceTree = "<group>"; };
+		1FF8D751246976C40021A909 /* HBFMManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HBFMManager.m; sourceTree = "<group>"; };
+		1FF8D752246976C40021A909 /* HBFMManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HBFMManager.h; sourceTree = "<group>"; };
+		1FF8D755246977380021A909 /* HBCommonTools.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HBCommonTools.h; sourceTree = "<group>"; };
+		31EBE4F2C20A50BE15A45B6C /* Pods-HBKitTools.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HBKitTools.release.xcconfig"; path = "Target Support Files/Pods-HBKitTools/Pods-HBKitTools.release.xcconfig"; sourceTree = "<group>"; };
+		61A1F56C606E2485EA70FED7 /* Pods-HBKitTools.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HBKitTools.debug.xcconfig"; path = "Target Support Files/Pods-HBKitTools/Pods-HBKitTools.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4BD416D8C59A15E28FC36055 /* Pods_HBKitTools.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -67,6 +76,8 @@
 			children = (
 				1FD93AA62432F00F00727B20 /* HBKitTools */,
 				1FD93AA52432F00F00727B20 /* Products */,
+				C26B22047A45E21297E3D5CE /* Pods */,
+				8AE79A60157FBB4ED3DC34E1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,6 +114,7 @@
 			isa = PBXGroup;
 			children = (
 				1FD93ACA2432F08B00727B20 /* HBKitTools.h */,
+				1FF8D754246976CB0021A909 /* HBCommonTools */,
 				1FD93AD3243359F800727B20 /* HBUIViews */,
 				1FD93AC22432F07000727B20 /* HBCategorys */,
 			);
@@ -135,6 +147,34 @@
 			path = HBUIViews;
 			sourceTree = "<group>";
 		};
+		1FF8D754246976CB0021A909 /* HBCommonTools */ = {
+			isa = PBXGroup;
+			children = (
+				1FF8D755246977380021A909 /* HBCommonTools.h */,
+				1FF8D752246976C40021A909 /* HBFMManager.h */,
+				1FF8D751246976C40021A909 /* HBFMManager.m */,
+			);
+			path = HBCommonTools;
+			sourceTree = "<group>";
+		};
+		8AE79A60157FBB4ED3DC34E1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0892FD41BACC44358526B352 /* Pods_HBKitTools.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C26B22047A45E21297E3D5CE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				61A1F56C606E2485EA70FED7 /* Pods-HBKitTools.debug.xcconfig */,
+				31EBE4F2C20A50BE15A45B6C /* Pods-HBKitTools.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -142,9 +182,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1FD93ABD2432F01100727B20 /* Build configuration list for PBXNativeTarget "HBKitTools" */;
 			buildPhases = (
+				5EAA4E1DE94710675DB13E86 /* [CP] Check Pods Manifest.lock */,
 				1FD93AA02432F00F00727B20 /* Sources */,
 				1FD93AA12432F00F00727B20 /* Frameworks */,
 				1FD93AA22432F00F00727B20 /* Resources */,
+				94BF14E3F726DE55C440950F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -200,6 +242,48 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5EAA4E1DE94710675DB13E86 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HBKitTools-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		94BF14E3F726DE55C440950F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HBKitTools/Pods-HBKitTools-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HBKitTools/Pods-HBKitTools-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HBKitTools/Pods-HBKitTools-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		1FD93AA02432F00F00727B20 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -209,6 +293,7 @@
 				1FD93AAF2432F00F00727B20 /* ViewController.m in Sources */,
 				1FF8D750246937830021A909 /* UIColor+HBHex.m in Sources */,
 				1FD93AC82432F07000727B20 /* UILabel+HBAlignment.m in Sources */,
+				1FF8D753246976C40021A909 /* HBFMManager.m in Sources */,
 				1FD93AA92432F00F00727B20 /* AppDelegate.m in Sources */,
 				1FD93ABA2432F01100727B20 /* main.m in Sources */,
 				1FD93AC92432F07000727B20 /* UIView+HBExtension.m in Sources */,
@@ -351,6 +436,7 @@
 		};
 		1FD93ABE2432F01100727B20 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 61A1F56C606E2485EA70FED7 /* Pods-HBKitTools.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -369,6 +455,7 @@
 		};
 		1FD93ABF2432F01100727B20 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 31EBE4F2C20A50BE15A45B6C /* Pods-HBKitTools.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
