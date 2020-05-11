@@ -9,6 +9,8 @@
 #ifndef HBCategorys_h
 #define HBCategorys_h
 
+#import "UIColor+HBHex.h"
+
 #import "UILabel+HBAlignment.h"
 
 #import "UIView+HBExtension.h"
