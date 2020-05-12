@@ -18,7 +18,6 @@
 		1FD93AC82432F07000727B20 /* UILabel+HBAlignment.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FD93AC62432F07000727B20 /* UILabel+HBAlignment.m */; };
 		1FD93AC92432F07000727B20 /* UIView+HBExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FD93AC72432F07000727B20 /* UIView+HBExtension.m */; };
 		1FD93ADC24336F0A00727B20 /* HBTitleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FD93ADB24336F0A00727B20 /* HBTitleView.m */; };
-		1FF8D750246937830021A909 /* UIColor+HBHex.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FF8D74F246937830021A909 /* UIColor+HBHex.m */; };
 		1FF8D753246976C40021A909 /* HBFMManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FF8D751246976C40021A909 /* HBFMManager.m */; };
 		4BD416D8C59A15E28FC36055 /* Pods_HBKitTools.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0892FD41BACC44358526B352 /* Pods_HBKitTools.framework */; };
 /* End PBXBuildFile section */
@@ -50,8 +49,6 @@
 		1FD93AD824335A6800727B20 /* HBUIViews.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HBUIViews.h; sourceTree = "<group>"; };
 		1FD93ADA24336F0A00727B20 /* HBTitleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HBTitleView.h; sourceTree = "<group>"; };
 		1FD93ADB24336F0A00727B20 /* HBTitleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HBTitleView.m; sourceTree = "<group>"; };
-		1FF8D74E246937830021A909 /* UIColor+HBHex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+HBHex.h"; sourceTree = "<group>"; };
-		1FF8D74F246937830021A909 /* UIColor+HBHex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+HBHex.m"; sourceTree = "<group>"; };
 		1FF8D751246976C40021A909 /* HBFMManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HBFMManager.m; sourceTree = "<group>"; };
 		1FF8D752246976C40021A909 /* HBFMManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HBFMManager.h; sourceTree = "<group>"; };
 		1FF8D755246977380021A909 /* HBCommonTools.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HBCommonTools.h; sourceTree = "<group>"; };
@@ -125,8 +122,6 @@
 			isa = PBXGroup;
 			children = (
 				1FD93AC52432F07000727B20 /* HBCategorys.h */,
-				1FF8D74E246937830021A909 /* UIColor+HBHex.h */,
-				1FF8D74F246937830021A909 /* UIColor+HBHex.m */,
 				1FD93AC42432F07000727B20 /* UILabel+HBAlignment.h */,
 				1FD93AC62432F07000727B20 /* UILabel+HBAlignment.m */,
 				1FD93AC32432F07000727B20 /* UIView+HBExtension.h */,
@@ -290,7 +285,6 @@
 			files = (
 				1F6FD364244FFDD100811F1C /* NSTimer+HBWeakTimer.m in Sources */,
 				1FD93AAF2432F00F00727B20 /* ViewController.m in Sources */,
-				1FF8D750246937830021A909 /* UIColor+HBHex.m in Sources */,
 				1FD93AC82432F07000727B20 /* UILabel+HBAlignment.m in Sources */,
 				1FF8D753246976C40021A909 /* HBFMManager.m in Sources */,
 				1FD93AA92432F00F00727B20 /* AppDelegate.m in Sources */,
